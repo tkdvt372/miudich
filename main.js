@@ -5,7 +5,6 @@ const player = $(".player");
 const heading = $('header h2');
 const cdThumb = $('.cd-thumb');
 const audio = $('#audio');
-audio.volume =0.2;
 const PlayBtn = $('.btn-toggle-play');
 const progress = $('#progress');
 const nextBtn = $(' .btn-next');
