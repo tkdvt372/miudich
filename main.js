@@ -85,7 +85,7 @@ const app = {
   render: function () {
     const htmld = this.songs.map((song,index) => {
       return `
-              <div class="song ${index === this.currentIndex ? 'active': ''}" data-index="${index}">
+              <div style="cursor: pointer" class="song ${index === this.currentIndex ? 'active': ''}" data-index="${index}">
             <div class="thumb" style="background-image: url('${song.image}')">
             </div>
             <div class="body">
